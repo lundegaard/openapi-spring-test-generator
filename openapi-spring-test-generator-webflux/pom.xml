@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>eu.lundegaard.java</groupId>
+        <artifactId>openapi-spring-test-generator</artifactId>
+        <version>1.0.2</version>
+    </parent>
+
+    <artifactId>openapi-spring-test-generator-webflux</artifactId>
+    <name>openapi-spring-test-generator-webflux</name>
+    <description>Spring Webflux implementation of the OpenApi generator</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>eu.lundegaard.java</groupId>
+            <artifactId>openapi-spring-test-generator-common</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springdoc</groupId>
+            <artifactId>springdoc-openapi-webflux-core</artifactId>
+        </dependency>
+    </dependencies>
+
+</project>

@@ -1,0 +1,4 @@
+openpi-generator:
+  outputDirectory: docs
+  generate-json: true
+  generate-yaml: false
